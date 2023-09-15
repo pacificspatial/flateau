@@ -16,4 +16,4 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 
 ## GeoPackage
 
-- [All data included](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/tokyo23/2022/buildings/tokyo23_2022_buildings.gpkg)
+- [All data included](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/tokyo23_2022_buildings.gpkg)

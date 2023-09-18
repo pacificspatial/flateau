@@ -123,3 +123,11 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 | area_type        | String    | landslide area type      | 土砂災害警戒区域（指定済）                             |
 | area_type_code   | String    | landslide area type code | 1                                         |
 | id               | Integer64 | sequential number         | 1                                         |
+
+## Data quality
+
+## Detail
+
+## Extended attriburtes
+
+## Generic attributes

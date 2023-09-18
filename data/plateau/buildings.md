@@ -64,3 +64,62 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 | cal_zmin_m                  | Real      | building z minimum in meter                                                      | 2.406                                     |
 | cal_zmax_m                  | Real      | building z maximu in meter                                                       | 9.141                                     |
 | cal_height_m                | Real      | building height in meter                                                         | 6.735                                     |
+
+## Flooding
+
+| column           | data_type | details             | example                                   |
+|------------------|-----------|---------------------|-------------------------------------------|
+| source_filename  | String    | source file name    | 53392546_bldg_6697_2_op.gml               |
+| gml_id           | String    | building unique ID  | bldg_fc50c7d9-76ac-4576-bfbd-f37c74410928 |
+| building_id      | String    | building ID         | 13111-bldg-524                            |
+| branch_id        | String    |                     |                                           |
+| part_id          | String    |                     |                                           |
+| description      | String    | description         | 城南地区河川流域                                  |
+| description_code | String    | 3                   |                                           |
+| rank             | String    | flooding rank       | 0.5m未満                                    |
+| rank_code        | String    | flooding rank code  | 1                                         |
+| rank_org         | String    |                     |                                           |
+| rank_org_code    | String    |                     |                                           |
+| depth            | String    | flooding depth      | 0.092                                     |
+| depth_uom        | String    | unit                | m                                         |
+| admin_type       | String    | admin type          | 都道府県                                      |
+| admin_type_code  | String    | 2                   |                                           |
+| scale            | String    | flooding scale      | L2（想定最大規模）                                |
+| scale_code       | String    | flodoing scale code | 2                                         |
+| duration         | String    |                     |                                           |
+| duration_uom     | String    |                     |                                           |
+| id               | Integer64 | sequential number   | 1                                         |
+
+## High tide
+
+| column           | data_type | details            | example                                   |
+|------------------|-----------|--------------------|-------------------------------------------|
+| source_filename  | String    | source file name   | 53394539_bldg_6697_2_op.gml               |
+| gml_id           | String    | building unique ID | bldg_d36d2972-098d-4be1-b595-7fe8cd79994b |
+| building_id      | String    | building ID        | 13101-bldg-9339                           |
+| branch_id        | String    |                    |                                           |
+| part_id          | String    |                    |                                           |
+| description      | String    | description        | 高潮浸水想定区域図                                 |
+| description_code | String    | 1                  |                                           |
+| rank             | String    | tide rank          | 0.5m未満                                    |
+| rank_code        | String    | tide rank code     | 1                                         |
+| rank_org         | String    |                    |                                           |
+| rank_org_code    | String    |                    |                                           |
+| depth            | String    | tide depth         | 0.43                                      |
+| depth_uom        | String    | unit               | m                                         |
+| id               | Integer64 | sequential number  | 1                                         |
+
+## Landslide
+
+| column           | data_type | details                   | example                                   |
+|------------------|-----------|---------------------------|-------------------------------------------|
+| source_filename  | String    | source file name          | 53392584_bldg_6697_2_op.gml               |
+| gml_id           | String    | building unique ID        | bldg_ad10f991-e3ca-4cbb-87f4-161e7065943b |
+| building_id      | String    | building ID               | 13111-bldg-67878                          |
+| branch_id        | String    |                           |                                           |
+| part_id          | String    |                           |                                           |
+| description      | String    | description               | 急傾斜地の崩落                                   |
+| description_code | String    | description code          | 1                                         |
+| area_type        | String    | landslide area type      | 土砂災害警戒区域（指定済）                             |
+| area_type_code   | String    | landslide area type code | 1                                         |
+| id               | Integer64 | sequential number         | 1                                         |

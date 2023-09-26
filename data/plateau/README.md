@@ -7,6 +7,10 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 ## Tokyo23 
 ### Original Data: https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-2022
 
+## Sample data
+
+- [Building 2D Polygons around the Tokyo Station as GeoJSON](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/sample/tokyo_station.geojson)
+
 ## GeoParquet
 
 - [Building 2D Polygons 427.3 MB](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/tokyo23/2022/buildings/tokyo23_2022_buildings_polygon.parquet)

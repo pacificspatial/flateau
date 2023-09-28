@@ -1,15 +1,15 @@
 # What are in this list?
 * citycode_cityname_year.gpkg
- * building_lod0 : building footprint polygons (POLYGON, always exists)
- * building_centroid_lod0 : centroid of building footprint polygons (POINT, always exists)
- * building_generic_attributes : (NoGeometry, not always exists)
- * building_data_quality :       (NoGeometry, not always exists)
- * building_detail :             (NoGeometry, not always exists)
- * building_risk_flooding :      (NoGeometry, not always exists)
- * building_risk_land_slide :    (NoGeometry, not always exists)
- * building_risk_tsunami :       (NoGeometry, not always exists)
+  * building_lod0 : building footprint polygons (POLYGON, always exists)
+  * building_centroid_lod0 : centroid of building footprint polygons (POINT, always exists)
+  * building_generic_attributes : (NoGeometry, not always exists)
+  * building_data_quality :       (NoGeometry, not always exists)
+  * building_detail :             (NoGeometry, not always exists)
+  * building_risk_flooding :      (NoGeometry, not always exists)
+  * building_risk_land_slide :    (NoGeometry, not always exists)
+  * building_risk_tsunami :       (NoGeometry, not always exists)
 
-
+# Available data
 * [01100_sapporo_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/01100_sapporo_2020.gpkg)
 * [01205_muroran_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/01205_muroran_2022.gpkg)
 * [01639_sarabetsu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/01639_sarabetsu_2022.gpkg)

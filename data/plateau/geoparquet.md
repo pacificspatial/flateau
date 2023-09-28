@@ -9,6 +9,7 @@
 * citycode_cityname_year_building_risk_tsunami.parquet :       (NoGeometry, not always exists)
 
 
+# Available data
 * [01100_sapporo_2020_building_centroid_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpqt/01100_sapporo_2020_building_centroid_lod0.parquet)
 * [01100_sapporo_2020_building_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpqt/01100_sapporo_2020_building_lod0.parquet)
 * [01205_muroran_2022_building_centroid_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpqt/01205_muroran_2022_building_centroid_lod0.parquet)

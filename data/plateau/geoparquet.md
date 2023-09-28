@@ -1,3 +1,14 @@
+# What are in this list?
+* citycode_cityname_year.parquet * citycode_cityname_year_building_lod0 : building footprint polygons (POLYGON, always exists)
+* citycode_cityname_year_building_centroid_lod0.parquet : centroid of building footprint polygons (POINT, always exists)
+* citycode_cityname_year_building_generic_attributes.parquet : (NoGeometry, not always exists)
+* citycode_cityname_year_building_data_quality.parquet :       (NoGeometry, not always exists)
+* citycode_cityname_year_building_detail.parquet :             (NoGeometry, not always exists)
+* citycode_cityname_year_building_risk_flooding.parquet :      (NoGeometry, not always exists)
+* citycode_cityname_year_building_risk_land_slide.parquet :    (NoGeometry, not always exists)
+* citycode_cityname_year_building_risk_tsunami.parquet :       (NoGeometry, not always exists)
+
+
 * [01100_sapporo_2020_building_centroid_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpqt/01100_sapporo_2020_building_centroid_lod0.parquet)
 * [01100_sapporo_2020_building_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpqt/01100_sapporo_2020_building_lod0.parquet)
 * [01205_muroran_2022_building_centroid_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpqt/01205_muroran_2022_building_centroid_lod0.parquet)

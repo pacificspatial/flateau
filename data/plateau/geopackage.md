@@ -34,6 +34,7 @@
 * [12210_mobara_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/12210_mobara_2022.gpkg)
 * [12217_kashiwa_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/12217_kashiwa_2020.gpkg)
 * [12221_yachiyo_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/12221_yachiyo_2022.gpkg)
+* [13100_tokyo23_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13100_tokyo23_2022.gpkg)
 * [13201_hachioji_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13201_hachioji_2022.gpkg)
 * [13213_higashimurayama_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13213_higashimurayama_2020.gpkg)
 * [13229_nishitokyo_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13229_nishitokyo_2022.gpkg)

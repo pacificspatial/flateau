@@ -7,7 +7,13 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 ## Tokyo23 
 ### Original Data: https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku-2022
 
+## Sample data
+
+- [Building 2D Polygons around the Tokyo Station as GeoJSON](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/sample/tokyo_station.geojson)
+
 ## GeoParquet
+
+Sample files are listed below. All available files are listed [here](geoparquet.md)
 
 - [Building 2D Polygons 427.3 MB](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/tokyo23/2022/buildings/tokyo23_2022_buildings_polygon.parquet)
 - [Building Centroid 285.6 MB](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/tokyo23/2022/buildings/tokyo23_2022_buildings_centroid.parquet)
@@ -20,6 +26,8 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 - [Building Risk Land Slide 259.9 KB](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/tokyo23/2022/buildings/tokyo23_2022_buildings_risk_land_slide.parquet)
 
 ## GeoPackage
+
+A Sample file is listed below. All available files are listed [here](geopackage.md)
 
 - [All data included](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/tokyo23_2022_buildings.gpkg)
 

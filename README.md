@@ -5,11 +5,7 @@ So this is our internal project to make Japanese open geospatial data available 
 
 Thanks to MLIT (Ministry of Land, Infrastructure, Transport and Tourism), we now have access to high-quality 3D building data. We want to contribute a bit to making their and local governments' data accessible to everyone. At least that is our hope!
 
-<<<<<<< HEAD
 We are going to start distributing our latest data for your use, so please use it freely and give us some feedback.
-=======
-We are going to start distributing experimental data for your use, so please use it freely and give us some feedback. We only included limited attributes at the beginning (2023/9/29), but for the next round, we will include all useful attributes.
->>>>>>> 1a5d1c68e2521867364275452ef991ed280bd9b6
 
 For the Plateau data, we converted their CityGML building data to GeoPackage as well as GeoParquet. During our conversion process, we calculated various height measurements, such as the maximum and minimum heights of buildings. Here are the Plateau data's terms of use:
 

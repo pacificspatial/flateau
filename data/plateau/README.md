@@ -5,7 +5,7 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 ## 2022 building data
 
 ### Prepared data (整備したデータ)
-We prepared data for each cities where Plateau data are available in 2022. Plateau project keeps adding more cities every year. So, hopefully we can keep adding more cities in the future.
+We prepared data for each city where Plateau data are available in 2022. Plateau project keeps adding more cities every year. So, hopefully we can keep adding more cities in the future.
 
 2022年度のPlateauの建物データの変換を行いました。毎年整備対象都市が増えているのでできれば毎年追加していきたいと考えています。
 
@@ -28,7 +28,7 @@ We prepared our data in three data formats.
 
 ### File names（今回整備したファイル名一覧）
 
-We prepared following files/layers for each city. Available data files/layers vary depend on its availability.We prepared polygon and centroid data are as GeoParquet and other data are ias Parquet file. GeoPackage files include all data as one file.
+We prepared the following files/layers for each city. Available data files/layers vary depend on its availability. We prepared polygon and centroid data are in GeoParquet format and other data are in Parquet. GeoPackage files include all data as one file.
 
 |filename                        |type   |description                              |
 |--------------------------------|-------|-----------------------------------------|

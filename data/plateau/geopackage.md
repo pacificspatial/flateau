@@ -1,135 +1,126 @@
-# What are in this list?
-* citycode_cityname_year.gpkg
-  * building_lod0 : building footprint polygons (POLYGON, always exists)
-  * building_centroid_lod0 : centroid of building footprint polygons (POINT, always exists)
-  * building_generic_attributes : (NoGeometry, not always exists)
-  * building_data_quality :       (NoGeometry, not always exists)
-  * building_detail :             (NoGeometry, not always exists)
-  * building_risk_flooding :      (NoGeometry, not always exists)
-  * building_risk_land_slide :    (NoGeometry, not always exists)
-  * building_risk_tsunami :       (NoGeometry, not always exists)
+# Available data (GeoPackage)
+* [01100_sapporo-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/01100_sapporo-shi_2020.gpkg) 879.91MB
+* [01205_muroran-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/01205_muroran-shi_2022.gpkg) 81.72MB
+* [01639_sarabetsu-mura_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/01639_sarabetsu-mura_2022.gpkg) 8.25MB
+* [02208_mutsu-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/02208_mutsu-shi_2022.gpkg) 119.87MB
+* [03201_morioka-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/03201_morioka-shi_2022.gpkg) 167.86MB
+* [04100_sendai-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/04100_sendai-shi_2022.gpkg) 682.59MB
+* [07203_koriyama-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/07203_koriyama-shi_2020.gpkg) 247.36MB
+* [07204_iwaki-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/07204_iwaki-shi_2020.gpkg) 380.38MB
+* [07205_shirakawa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/07205_shirakawa-shi_2020.gpkg) 87.87MB
+* [07212_minamisouma-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/07212_minamisouma-shi_2022.gpkg) 101.39MB
+* [08220_tsukuba-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/08220_tsukuba-shi_2022.gpkg) 255.07MB
+* [08234_hokota-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/08234_hokota-shi_2022.gpkg) 90.38MB
+* [09201_utsunomiya-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/09201_utsunomiya-shi_2020.gpkg) 457.99MB
+* [10203_kiryu-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/10203_kiryu-shi_2020.gpkg) 121.2MB
+* [10207_tatebayashi-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/10207_tatebayashi-shi_2020.gpkg) 111.74MB
+* [11100_saitama-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/11100_saitama-shi_2022.gpkg) 977.17MB
+* [11202_kumagaya-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/11202_kumagaya-shi_2020.gpkg) 265.97MB
+* [11224_toda-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/11224_toda-shi_2022.gpkg) 59.5MB
+* [11230_niiza-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/11230_niiza-shi_2020.gpkg) 75.09MB
+* [11238_hasuda-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/11238_hasuda-shi_2022.gpkg) 78.19MB
+* [11326_moroyama-machi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/11326_moroyama-machi_2020.gpkg) 24.49MB
+* [12210_mobara-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/12210_mobara-shi_2022.gpkg) 137.89MB
+* [12217_kashiwa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/12217_kashiwa-shi_2020.gpkg) 247.86MB
+* [12221_yachiyo-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/12221_yachiyo-shi_2022.gpkg) 102.48MB
+* [13100_tokyo23_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/13100_tokyo23_2022.gpkg) 3631.36MB
+* [13201_hachioji-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/13201_hachioji-shi_2022.gpkg) 368.46MB
+* [13213_higashimurayama-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/13213_higashimurayama-shi_2020.gpkg) 87.2MB
+* [13229_nishitokyo-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/13229_nishitokyo-shi_2022.gpkg) 93.24MB
+* [14100_yokohama-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/14100_yokohama-shi_2022.gpkg) 1291.97MB
+* [14130_kawasaki-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/14130_kawasaki-shi_2022.gpkg) 743.39MB
+* [14150_sagamihara-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/14150_sagamihara-shi_2020.gpkg) 384.16MB
+* [14201_yokosuka-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/14201_yokosuka-shi_2020.gpkg) 306.52MB
+* [14382_hakone-machi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/14382_hakone-machi_2020.gpkg) 19.08MB
+* [15100_niigata-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/15100_niigata-shi_2022.gpkg) 753.98MB
+* [17201_kanazawa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/17201_kanazawa-shi_2020.gpkg) 350.36MB
+* [17206_kaga-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/17206_kaga-shi_2022.gpkg) 93.34MB
+* [19201_kofu-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/19201_kofu-shi_2022.gpkg) 250.53MB
+* [20202_matsumoto-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/20202_matsumoto-shi_2020.gpkg) 310.47MB
+* [20204_okaya-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/20204_okaya-shi_2022.gpkg) 61.07MB
+* [20209_ina-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/20209_ina-shi_2020.gpkg) 110.37MB
+* [20214_chino-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/20214_chino-shi_2022.gpkg) 112.17MB
+* [20217_saku-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/20217_saku-shi_2022.gpkg) 159.71MB
+* [21201_gifu-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/21201_gifu-shi_2022.gpkg) 462.22MB
+* [21211_minokamo-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/21211_minokamo-shi_2022.gpkg) 107.81MB
+* [22100_shizuoka-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22100_shizuoka-shi_2022.gpkg) 601.28MB
+* [22203_numazu-shi_2021.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22203_numazu-shi_2021.gpkg) 170.36MB
+* [22205_atami-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22205_atami-shi_2022.gpkg) 39.28MB
+* [22206_mishima-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22206_mishima-shi_2022.gpkg) 97.46MB
+* [22207_fujinomiya-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22207_fujinomiya-shi_2022.gpkg) 158.63MB
+* [22208_ito-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22208_ito-shi_2022.gpkg) 79.04MB
+* [22210_fuji-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22210_fuji-shi_2022.gpkg) 227.67MB
+* [22211_iwata-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22211_iwata-shi_2022.gpkg) 170.2MB
+* [22212_yaizu-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22212_yaizu-shi_2022.gpkg) 131.76MB
+* [22213_kakegawa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22213_kakegawa-shi_2020.gpkg) 196.43MB
+* [22214_fujieda-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22214_fujieda-shi_2022.gpkg) 118.92MB
+* [22215_gotenba-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22215_gotenba-shi_2022.gpkg) 79.32MB
+* [22216_fukuroi-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22216_fukuroi-shi_2022.gpkg) 113.54MB
+* [22219_shimoda-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22219_shimoda-shi_2022.gpkg) 28.25MB
+* [22220_susono-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22220_susono-shi_2022.gpkg) 37.82MB
+* [22221_kosai-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22221_kosai-shi_2022.gpkg) 58.91MB
+* [22222_izu-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22222_izu-shi_2022.gpkg) 53.56MB
+* [22223_omaezaki-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22223_omaezaki-shi_2022.gpkg) 43.03MB
+* [22224_kikugawa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22224_kikugawa-shi_2020.gpkg) 58.13MB
+* [22225_izunokuni-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22225_izunokuni-shi_2022.gpkg) 45.37MB
+* [22226_makinohara-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22226_makinohara-shi_2022.gpkg) 69.6MB
+* [22301_higashiizu-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22301_higashiizu-cho_2022.gpkg) 18.82MB
+* [22302_kawazu-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22302_kawazu-cho_2022.gpkg) 13.1MB
+* [22304_minamiizu-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22304_minamiizu-cho_2022.gpkg) 17MB
+* [22325_kannami-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22325_kannami-cho_2022.gpkg) 32.72MB
+* [22341_shimizu-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22341_shimizu-cho_2022.gpkg) 21.19MB
+* [22342_nagaizumi-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22342_nagaizumi-cho_2022.gpkg) 25.28MB
+* [22344_oyama-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22344_oyama-cho_2022.gpkg) 19.65MB
+* [22424_yoshida-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22424_yoshida-cho_2022.gpkg) 44.46MB
+* [22461_mori-machi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/22461_mori-machi_2022.gpkg) 20.41MB
+* [23100_nagoya-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/23100_nagoya-shi_2020.gpkg) 1171.73MB
+* [23202_okazaki-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/23202_okazaki-shi_2020.gpkg) 338.89MB
+* [23206_kasugai-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/23206_kasugai-shi_2022.gpkg) 343.18MB
+* [23207_toyokawa-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/23207_toyokawa-shi_2022.gpkg) 259.82MB
+* [23208_tsushima-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/23208_tsushima-shi_2020.gpkg) 60.31MB
+* [23212_anjo-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/23212_anjo-shi_2020.gpkg) 149.84MB
+* [23230_nisshin-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/23230_nisshin-shi_2022.gpkg) 71.08MB
+* [24202_yokkaichi-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/24202_yokkaichi-shi_2022.gpkg) 426.05MB
+* [24212_kumano-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/24212_kumano-shi_2022.gpkg) 39.86MB
+* [26100_kyoto-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/26100_kyoto-shi_2022.gpkg) 766.37MB
+* [27100_osaka-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27100_osaka-shi_2022.gpkg) 1362.89MB
+* [27140_sakai-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27140_sakai-shi_2022.gpkg) 488.49MB
+* [27203_toyonaka-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27203_toyonaka-shi_2020.gpkg) 219.3MB
+* [27204_ikeda-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27204_ikeda-shi_2020.gpkg) 71.9MB
+* [27207_takatsuki-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27207_takatsuki-shi_2020.gpkg) 196.13MB
+* [27216_kawachinagano-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27216_kawachinagano-shi_2022.gpkg) 16.05MB
+* [27221_kashiwara-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27221_kashiwara-shi_2022.gpkg) 41.53MB
+* [27224_settsu-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27224_settsu-shi_2020.gpkg) 52.92MB
+* [27341_tadaoka-cho_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/27341_tadaoka-cho_2020.gpkg) 12.91MB
+* [28210_kakogawa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/28210_kakogawa-shi_2020.gpkg) 239.24MB
+* [28225_asago-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/28225_asago-shi_2022.gpkg) 19.74MB
+* [30201_wakayama-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/30201_wakayama-shi_2022.gpkg) 139.24MB
+* [30422_taiji-cho_2021.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/30422_taiji-cho_2021.gpkg) 3.98MB
+* [31201_tottori-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/31201_tottori-shi_2020.gpkg) 137.53MB
+* [34100_hirosima-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/34100_hirosima-shi_2022.gpkg) 764.34MB
+* [34202_kure-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/34202_kure-shi_2020.gpkg) 173.53MB
+* [34207_fukuyama-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/34207_fukuyama-shi_2020.gpkg) 514.54MB
+* [34208_fuchu-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/34208_fuchu-shi_2022.gpkg) 37.99MB
+* [34304_kaita-cho_2021.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/34304_kaita-cho_2021.gpkg) 19.12MB
+* [37201_takamatsu-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/37201_takamatsu-shi_2022.gpkg) 778.54MB
+* [38201_matsuyama-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/38201_matsuyama-shi_2020.gpkg) 442.93MB
+* [40100_kitakyushu-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/40100_kitakyushu-shi_2020.gpkg) 378.48MB
+* [40130_fukuoka-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/40130_fukuoka-shi_2022.gpkg) 572.86MB
+* [40203_kurume-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/40203_kurume-shi_2020.gpkg) 224.83MB
+* [40205_iizuka-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/40205_iizuka-shi_2020.gpkg) 151.3MB
+* [40220_munakata-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/40220_munakata-shi_2020.gpkg) 110.03MB
+* [40225_ukiha-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/40225_ukiha-shi_2022.gpkg) 69.37MB
+* [41206_takeo-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/41206_takeo-shi_2022.gpkg) 68.19MB
+* [41208_ogi-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/41208_ogi-shi_2022.gpkg) 63.31MB
+* [41423_omachi-cho_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/41423_omachi-cho_2022.gpkg) 9.18MB
+* [41424_kouhoku-machi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/41424_kouhoku-machi_2022.gpkg) 19.15MB
+* [41425_shiroisi-chou_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/41425_shiroisi-chou_2022.gpkg) 58.28MB
+* [43100_kumamoto-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/43100_kumamoto-shi_2022.gpkg) 445.51MB
+* [43204_arao-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/43204_arao-shi_2020.gpkg) 63.07MB
+* [43206_tamana-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/43206_tamana-shi_2020.gpkg) 65.34MB
+* [43443_mashiki-machi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/43443_mashiki-machi_2020.gpkg) 27.16MB
+* [44204_hita-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/44204_hita-shi_2020.gpkg) 65.4MB
+* [45203_nobeoka-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/45203_nobeoka-shi_2022.gpkg) 95.98MB
+* [47201_naha-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/47201_naha-shi_2020.gpkg) 90.46MB
 
-# Available data
-* [01100_sapporo_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/01100_sapporo_2020.gpkg)
-* [01205_muroran_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/01205_muroran_2022.gpkg)
-* [01639_sarabetsu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/01639_sarabetsu_2022.gpkg)
-* [02208_mutsu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/02208_mutsu_2022.gpkg)
-* [03201_morioka_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/03201_morioka_2022.gpkg)
-* [04100_sendai_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/04100_sendai_2022.gpkg)
-* [07203_koriyama_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/07203_koriyama_2020.gpkg)
-* [07204_iwaki_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/07204_iwaki_2020.gpkg)
-* [07205_shirakawa_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/07205_shirakawa_2020.gpkg)
-* [07212_minamisouma_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/07212_minamisouma_2022.gpkg)
-* [08220_tsukuba_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/08220_tsukuba_2022.gpkg)
-* [08234_hokota_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/08234_hokota_2022.gpkg)
-* [09201_utsunomiya_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/09201_utsunomiya_2020.gpkg)
-* [10203_kiryu_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/10203_kiryu_2020.gpkg)
-* [10207_tatebayashi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/10207_tatebayashi_2020.gpkg)
-* [11100_saitama_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/11100_saitama_2022.gpkg)
-* [11202_kumagaya_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/11202_kumagaya_2020.gpkg)
-* [11224_toda_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/11224_toda_2022.gpkg)
-* [11230_niiza_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/11230_niiza_2020.gpkg)
-* [11238_hasuda_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/11238_hasuda_2022.gpkg)
-* [11326_moroyama_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/11326_moroyama_2020.gpkg)
-* [12210_mobara_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/12210_mobara_2022.gpkg)
-* [12217_kashiwa_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/12217_kashiwa_2020.gpkg)
-* [12221_yachiyo_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/12221_yachiyo_2022.gpkg)
-* [13100_tokyo23_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13100_tokyo23_2022.gpkg)
-* [13201_hachioji_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13201_hachioji_2022.gpkg)
-* [13213_higashimurayama_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13213_higashimurayama_2020.gpkg)
-* [13229_nishitokyo_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/13229_nishitokyo_2022.gpkg)
-* [14100_yokohama_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/14100_yokohama_2022.gpkg)
-* [14130_kawasaki_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/14130_kawasaki_2022.gpkg)
-* [14150_sagamihara_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/14150_sagamihara_2020.gpkg)
-* [14201_yokosuka_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/14201_yokosuka_2020.gpkg)
-* [14382_hakone_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/14382_hakone_2020.gpkg)
-* [15100_niigata_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/15100_niigata_2022.gpkg)
-* [17201_kanazawa_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/17201_kanazawa_2020.gpkg)
-* [17206_kaga_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/17206_kaga_2022.gpkg)
-* [19201_kofu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/19201_kofu_2022.gpkg)
-* [20202_matsumoto_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/20202_matsumoto_2020.gpkg)
-* [20204_okaya_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/20204_okaya_2022.gpkg)
-* [20209_ina_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/20209_ina_2020.gpkg)
-* [20214_chino_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/20214_chino_2022.gpkg)
-* [20217_saku_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/20217_saku_2022.gpkg)
-* [21201_gifu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/21201_gifu_2022.gpkg)
-* [21211_minokamo_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/21211_minokamo_2022.gpkg)
-* [22100_shizuoka_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22100_shizuoka_2022.gpkg)
-* [22203_numazu_2021.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22203_numazu_2021.gpkg)
-* [22205_atami_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22205_atami_2022.gpkg)
-* [22206_mishima_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22206_mishima_2022.gpkg)
-* [22207_fujinomiya_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22207_fujinomiya_2022.gpkg)
-* [22208_ito_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22208_ito_2022.gpkg)
-* [22210_fuji_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22210_fuji_2022.gpkg)
-* [22211_iwata_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22211_iwata_2022.gpkg)
-* [22212_yaizu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22212_yaizu_2022.gpkg)
-* [22213_kakegawa_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22213_kakegawa_2020.gpkg)
-* [22214_fujieda_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22214_fujieda_2022.gpkg)
-* [22215_gotenba_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22215_gotenba_2022.gpkg)
-* [22216_fukuroi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22216_fukuroi_2022.gpkg)
-* [22219_shimoda_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22219_shimoda_2022.gpkg)
-* [22220_susono_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22220_susono_2022.gpkg)
-* [22221_kosai_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22221_kosai_2022.gpkg)
-* [22222_izu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22222_izu_2022.gpkg)
-* [22223_omaezaki_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22223_omaezaki_2022.gpkg)
-* [22224_kikugawa_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22224_kikugawa_2020.gpkg)
-* [22225_izunokuni_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22225_izunokuni_2022.gpkg)
-* [22226_makinohara_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22226_makinohara_2022.gpkg)
-* [22301_higashiizu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22301_higashiizu_2022.gpkg)
-* [22302_kawazu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22302_kawazu_2022.gpkg)
-* [22304_minamiizu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22304_minamiizu_2022.gpkg)
-* [22325_kannami_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22325_kannami_2022.gpkg)
-* [22341_shimizu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22341_shimizu_2022.gpkg)
-* [22342_nagaizumi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22342_nagaizumi_2022.gpkg)
-* [22344_oyama_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22344_oyama_2022.gpkg)
-* [22424_yoshida_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22424_yoshida_2022.gpkg)
-* [22461_mori_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/22461_mori_2022.gpkg)
-* [23100_nagoya_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/23100_nagoya_2020.gpkg)
-* [23202_okazaki_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/23202_okazaki_2020.gpkg)
-* [23206_kasugai_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/23206_kasugai_2022.gpkg)
-* [23207_toyokawa_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/23207_toyokawa_2022.gpkg)
-* [23208_taushima_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/23208_taushima_2020.gpkg)
-* [23212_anjo_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/23212_anjo_2020.gpkg)
-* [23230_nisshin_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/23230_nisshin_2022.gpkg)
-* [24202_yokkaichi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/24202_yokkaichi_2022.gpkg)
-* [24212_kumano_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/24212_kumano_2022.gpkg)
-* [26100_kyoto_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/26100_kyoto_2022.gpkg)
-* [27100_osaka_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27100_osaka_2022.gpkg)
-* [27140_sakai_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27140_sakai_2022.gpkg)
-* [27203_toyonaka_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27203_toyonaka_2020.gpkg)
-* [27204_ikeda_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27204_ikeda_2020.gpkg)
-* [27207_takatsuki_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27207_takatsuki_2020.gpkg)
-* [27216_kawachinagano_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27216_kawachinagano_2022.gpkg)
-* [27221_kashiwara_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27221_kashiwara_2022.gpkg)
-* [27224_settsu_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27224_settsu_2020.gpkg)
-* [27341_tadaoka_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/27341_tadaoka_2020.gpkg)
-* [28210_kakogawa_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/28210_kakogawa_2020.gpkg)
-* [28225_asago_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/28225_asago_2022.gpkg)
-* [30201_wakayama_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/30201_wakayama_2022.gpkg)
-* [30422_taiji_2021.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/30422_taiji_2021.gpkg)
-* [31201_tottori_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/31201_tottori_2020.gpkg)
-* [34100_hirosima_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/34100_hirosima_2022.gpkg)
-* [34202_kure_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/34202_kure_2020.gpkg)
-* [34207_fukuyama_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/34207_fukuyama_2020.gpkg)
-* [34208_fuchu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/34208_fuchu_2022.gpkg)
-* [34304_kaita_2021.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/34304_kaita_2021.gpkg)
-* [37201_takamatsu_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/37201_takamatsu_2022.gpkg)
-* [38201_matsuyama_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/38201_matsuyama_2020.gpkg)
-* [40100_kitakyushu_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/40100_kitakyushu_2020.gpkg)
-* [40130_fukuoka_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/40130_fukuoka_2022.gpkg)
-* [40203_kurume_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/40203_kurume_2020.gpkg)
-* [40205_iizuka_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/40205_iizuka_2020.gpkg)
-* [40220_munakata_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/40220_munakata_2020.gpkg)
-* [40225_ukiha_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/40225_ukiha_2022.gpkg)
-* [41206_takeo_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/41206_takeo_2022.gpkg)
-* [41208_ogi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/41208_ogi_2022.gpkg)
-* [41423_omachi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/41423_omachi_2022.gpkg)
-* [41424_kouhoku_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/41424_kouhoku_2022.gpkg)
-* [41425_shiroisi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/41425_shiroisi_2022.gpkg)
-* [43100_kumamoto_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/43100_kumamoto_2022.gpkg)
-* [43204_arao_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/43204_arao_2020.gpkg)
-* [43206_tamana_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/43206_tamana_2020.gpkg)
-* [43443_mashiki_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/43443_mashiki_2020.gpkg)
-* [44204_hita_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/44204_hita_2020.gpkg)
-* [45203_nobeoka_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/45203_nobeoka_2022.gpkg)
-* [47201_naha_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings/gpkg/47201_naha_2020.gpkg)
+

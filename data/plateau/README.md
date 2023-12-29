@@ -44,7 +44,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |building_risk_land_slide        |table  |Land slide zone attributes.                 |土砂災害警戒区域及び土砂災害特別警戒区域に存在する建築物に付与した区域に関する属性|
 |building_generic_attributes     |table  |Generic attributes of buldings.             |建物モデルの汎用属性                               |
 |building_extended_attributes    |table  |Extended attributes of buildings. 建物モデルの拡張属性|建物モデルの拡張属性                               |
-|
 
 ### Data Schema for each file (各データのスキーマ)
 
@@ -95,7 +94,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |cal_zmax_m                     |double   |9.141                                       |maximum height value from 3D geometries                              |
 |cal_height_m                   |double   |6.734999999999999                           |building height based on the min and max height                      |
 |h3_level15_index               |text     |644847779062396846                          |H3 level 15 index of polygon centroid                                |
-|
 
 ## building_detail
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
@@ -172,7 +170,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |note                                   |text(200)|NULL                                     |                                                                                   |
 |survey_year                            |text(200)|2016                                     |                                                                                   |
 |index                                  |int      |0                                        |                                                                                   |
-|
 
 ## building_large_customer_facility
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
@@ -206,7 +203,7 @@ We prepared the following files/layers for each city. Available data files/layer
 |note                                   |text(200)|NULL                                     |                                                                                   |
 |survey_year                            |text(200)|2017                                     |                                                                                   |
 |index                                  |int      |0                                        |                                                                                   |
-|
+
 ## building_data_quality
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
 |---------------------------------------|---------|-----------------------------------------|-----------------------------------------------------------------------------------|
@@ -227,7 +224,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |lod1_height_type                       |text(200)|点群から取得_中央値                               |                                                                                   |
 |lod1_height_type_code                  |text(200)|2                                        |                                                                                   |
 |index                                  |int      |0                                        |                                                                                   |
-|
 
 ## building_risk_flooding
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
@@ -251,7 +247,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |scale_code                             |text(200)|2                                        |                                                                                   |
 |duration                               |text(200)|14.55                                    |                                                                                   |
 |duration_uom                           |text(200)|hour                                     |                                                                                   |
-|
 
 ## building_risk_tsunami
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
@@ -269,7 +264,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |rank_org_code                          |text(200)|NULL                                     |                                                                                   |
 |depth                                  |text(200)|0.13                                     |                                                                                   |
 |depth_uom                              |text(200)|m                                        |                                                                                   |
-|
 
 ## building_risk_high_tide
 
@@ -307,7 +301,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |rank_org_code                          |text(200)|NULL                                     |                                                                                   |
 |depth                                  |text(200)|0.076                                    |                                                                                   |
 |depth_uom                              |text(200)|m                                        |                                                                                   |
-|
 
 ## building_risk_land_slide
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
@@ -321,7 +314,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |description_code                       |text(200)|1                                        |                                                                                   |
 |area_type                              |text(200)|土砂災害警戒区域（指定済）                            |                                                                                   |
 |area_type_code                         |text(200)|1                                        |                                                                                   |
-|
 
 ## building_generic_attributes
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
@@ -337,7 +329,6 @@ We prepared the following files/layers for each city. Available data files/layer
 |13+区市町村コード+大字・町コード+町・丁目コード             |text(16) |13111049003                              |                                                                                   |
 |地区計画                                   |text(24) |京急蒲田駅西口地区                                |                                                                                   |
 |再開発等促進区を定める地区計画                        |text(16) |東品川四丁目地区                                 |                                                                                   |
-|
 
 ## building_extended_attributes
 |attribute_name                         |type     |sample data                              |Definition                                                                         |
@@ -352,4 +343,3 @@ We prepared the following files/layers for each city. Available data files/layer
 |高度地区_code                              |smallint |2                                        |                                                                                   |
 |防火及び準防火地域                              |text(8)  |準防火地域                                    |                                                                                   |
 |防火及び準防火地域_code                         |int      |20                                       |                                                                                   |
-|

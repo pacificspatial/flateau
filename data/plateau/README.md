@@ -30,20 +30,20 @@ We prepared our data in three data formats.
 
 We prepared the following files/layers for each city. Available data files/layers vary depend on its availability. We prepared polygon and centroid data are in GeoParquet format and other data are in Parquet. GeoPackage files include all data as one file.
 
-|filename                        |type   |description                                                              |
-|--------------------------------|-------|-------------------------------------------------------------------------|
-|building_lod0                   |polygon|Building footprint 2D polygons. 建物フットプリント2Dポリゴンとその属性                     |
-|building_centroid_lod0          |point  |Centroid points of 2D footprint polygons. 建物フットプリントポリゴンのセントロイドとその属性      |
-|building_detail                 |table  |Basic information of buildings. 建築物に関する基礎的な情報                            |
-|building_large_customer_facility|table  |Basic information of large size buildings. 大規模小売店舗や大規模集客施設に関する基礎的な情報     |
-|building_data_quality           |table  |Data quality of each building data. 地物インスタンスごとのデータの作成情報                  |
-|building_risk_flooding          |table  |Flooding zone attributes. 洪水浸水想定区域内に存在する建築物に付与された浸水想定区域がもつ属性             |
-|building_risk_tsunami           |table  |Tsunami zone attributes. 津波洪水浸水想定の区域内に存在する建築物付与した津波浸水想定の区域の属性            |
-|building_risk_high_tide         |table  |High tide zone attributes. 高潮浸水想定区域に存在する建築物に付与した高潮浸水想定区域の属性を             |
-|building_risk_internal_overflow |table  |Inland water inundation zone attributes. 内水浸水想定区域に存在する建築物に付与した内水浸水想定区域の属性|
-|building_risk_land_slide        |table  |Land slide zone attributes. 土砂災害警戒区域及び土砂災害特別警戒区域に存在する建築物に付与した区域に関する属性    |
-|building_generic_attributes     |table  |Generic attributes of buldings. 建物モデルの汎用属性                               |
-|building_extended_attributes    |table  |Extended attributes of buildings. 建物モデルの拡張属性                             |
+|filename                        |type   |description                                 |description_ja                           |
+|--------------------------------|-------|--------------------------------------------|-----------------------------------------|
+|building_lod0                   |polygon|Building footprint 2D polygons.             |建物フットプリント2Dポリゴンとその属性                     |
+|building_centroid_lod0          |point  |Centroid points of 2D footprint polygons.   |建物フットプリントポリゴンのセントロイドとその属性                |
+|building_detail                 |table  |Basic information of buildings.             |建築物に関する基礎的な情報                            |
+|building_large_customer_facility|table  |Basic information of large size buildings.  |大規模小売店舗や大規模集客施設に関する基礎的な情報                |
+|building_data_quality           |table  |Data quality of each building data.         |地物インスタンスごとのデータの作成情報                      |
+|building_risk_flooding          |table  |Flooding zone attributes.                   |洪水浸水想定区域内に存在する建築物に付与された浸水想定区域がもつ属性       |
+|building_risk_tsunami           |table  |Tsunami zone attributes.                    |津波洪水浸水想定の区域内に存在する建築物付与した津波浸水想定の区域の属性     |
+|building_risk_high_tide         |table  |High tide zone attributes.                  |高潮浸水想定区域に存在する建築物に付与した高潮浸水想定区域の属性を        |
+|building_risk_internal_overflow |table  |Inland water inundation zone attributes.    |内水浸水想定区域に存在する建築物に付与した内水浸水想定区域の属性         |
+|building_risk_land_slide        |table  |Land slide zone attributes.                 |土砂災害警戒区域及び土砂災害特別警戒区域に存在する建築物に付与した区域に関する属性|
+|building_generic_attributes     |table  |Generic attributes of buldings.             |建物モデルの汎用属性                               |
+|building_extended_attributes    |table  |Extended attributes of buildings. 建物モデルの拡張属性|建物モデルの拡張属性                               |
 |
 
 ### Data Schema for each file (各データのスキーマ)

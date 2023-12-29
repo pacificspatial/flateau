@@ -43,7 +43,7 @@ We prepared the following files/layers for each city. Available data files/layer
 |building_risk_internal_overflow |table  |Inland water inundation zone attributes.    |内水浸水想定区域に存在する建築物に付与した内水浸水想定区域の属性         |
 |building_risk_land_slide        |table  |Land slide zone attributes.                 |土砂災害警戒区域及び土砂災害特別警戒区域に存在する建築物に付与した区域に関する属性|
 |building_generic_attributes     |table  |Generic attributes of buldings.             |建物モデルの汎用属性                               |
-|building_extended_attributes    |table  |Extended attributes of buildings. 建物モデルの拡張属性|建物モデルの拡張属性                               |
+|building_extended_attributes    |table  |Extended attributes of buildings.           |建物モデルの拡張属性                               |
 
 ### Data Schema for each file (各データのスキーマ)
 

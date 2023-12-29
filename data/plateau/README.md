@@ -22,11 +22,11 @@ We prepared data for each city where Plateau data are available in 2022. Plateau
 
 ### Prepaed data fromat（整備したデータのフォーマット）
 We prepared our data in three data formats.
-- GeoParquet
+- GeoParquet ([download page](geoparquet.md))
   - Footprint polygons and their centroid data 
-- Parquet
+- Parquet ([download page](geoparquet.md))
   - other ancillary data which don't have geometry information. You can join these data to GeoParquet data using gml_id column.
-- GeoPackage
+- GeoPackage ([download page](geopackage.md))
   - All with or without geometry data are in this file.
 
 ### File naming convention (ファイルの命名規則)

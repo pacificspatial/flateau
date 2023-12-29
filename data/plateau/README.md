@@ -1,6 +1,17 @@
 # PLATEAU Building Data
 
-Polygon and Centroid data have gml_id columns which you can use to join attributes from other tables.
+You can download and use our data freely under CC-BY 4.0 license. We used PLATEAU data so you also need to follow [their term of use](https://www.mlit.go.jp/plateau/site-policy/). 
+
+- (c) [Pacific Spatial Solutions, inc.](https://pacificspatial.com) 2023 CC-BY. This data is made available under a Creative Commons Attribution 4.0 International license. Original building data are from PROJECT PLATEAU (https://www.mlit.go.jp/plateau/)
+
+Polygon and Centroid data have gml_id columns which you can use to join attributes from other tables. 
+
+データは自由にお使いいただけますが、[CC BY 4.0ライセンス]（https://creativecommons.org/licenses/by/4.0/legalcode.ja） に従います。
+
+- 出典：国土交通省PLATEAU (https://www.mlit.go.jp/plateau/)
+「3D都市モデル（Project PLATEAU）」（国土交通省）(https://www.geospatial.jp/ckan/dataset/plateau） をもとにジオメトリから各種統計データを算出しオンラインまたはGISソフトウェアで利用しやすいフォーマットに変換。 [Pacific Spatial Solutions株式会社](https://pacificspatial.com) 作成
+
+各種属性ファイルのデータは、gml_idを使ってポリゴンとセントロイドのデータに紐づけすることができます。
 
 ## 2022 building data
 

@@ -13,7 +13,7 @@ Avenza Mapsの使い方は、武揚堂様が作成した[このビデオをご�
 #### [PSSの公開している3Dビューア](https://pss-terria.com/)や[東京都デジタルツイン実現プロジェクトの3Dビューア](https://3dview.tokyo-digitaltwin.metro.tokyo.lg.jp/)にドラッグアンドドロップすると、地震関連のデータが3Dで見れます。主なデータは、国土地理院のサイトから提供されているデータです。
 [Avenza Maps](https://avenzamaps.jp/)用の地形図も直接Avenza Mapsにインポートできるレイヤも追加しました。Avenza Mapsのレイヤを読み込んで、目的の場所をクリックしてQRコードを表示させたら、Avenza Mapsのインポート機能を使って、直接地形図をインポートしてください。電波の届かないところでも自分の位置を確認しながらデータの収集、写真撮影などができます。
 * [2024/1/9時点で集めたデータのカタログJSONダウンロード](https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/catalog/noto_earthquake_20240109.json)
-  * [PSS Terria Mapを開く](https://pss-terria.com/#https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/catalog/noto_earthquake_20240109.json) (カタログの一番下にデータがリストされます)
+  * [PSS Terria Mapを開く](https://pss-terria.com/#map=3d&https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/catalog/noto_earthquake_20240109.json) (カタログの一番下にデータがリストされます)
 
 ![TerriaMap](https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/images/2024-01-09_12-19-11.png)
 

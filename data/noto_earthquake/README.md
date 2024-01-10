@@ -49,7 +49,7 @@ Avenza Mapsの使い方は、武揚堂様が作成した[このビデオをご�
 * [17206_kaga-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/17206_kaga-shi_2022.gpkg) 93.34MB
 
 ## データの出典
-### [データの出典については岩崎様のサイトを参考にさせていただきました](https://wata909.github.io/R060101_Noto_Peninsula_EQ_QGIS/?fbclid=IwAR0EkrJixe8gO0xkGKlGR-v48zVRlIZlOI7Oqu4zzhrLp2RnpgLOmuHmc_Q)
+[データの出典については岩崎様のサイトを参考にさせていただきました](https://wata909.github.io/R060101_Noto_Peninsula_EQ_QGIS/?fbclid=IwAR0EkrJixe8gO0xkGKlGR-v48zVRlIZlOI7Oqu4zzhrLp2RnpgLOmuHmc_Q)
 
 ### 国土地理院
 * 斜面崩壊・堆積分布データ（2024年1月3日更新分）

@@ -47,3 +47,35 @@ Avenza Mapsの使い方は、武揚堂様が作成した[このビデオをご�
 ### GeoPackage
 * [17201_kanazawa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/17201_kanazawa-shi_2020.gpkg) 350.36MB
 * [17206_kaga-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/17206_kaga-shi_2022.gpkg) 93.34MB
+
+## データの出典
+### [データの出典については岩崎様のサイトを参考にさせていただきました](https://wata909.github.io/R060101_Noto_Peninsula_EQ_QGIS/?fbclid=IwAR0EkrJixe8gO0xkGKlGR-v48zVRlIZlOI7Oqu4zzhrLp2RnpgLOmuHmc_Q)
+
+### 国土地理院
+* 斜面崩壊・堆積分布データ（2024年1月3日更新分）
+  * 出典：https://www.gsi.go.jp/BOUSAI/20240101_noto_earthquake.html#2
+  * 概要：国土地理院が1月2日に撮影した空中写真から、令和6年能登半島地震によって生じたと考えられる斜面崩壊箇所及び土砂堆積箇所の範囲について判読したものであり、道路や河川上の土砂は、一部撤去されている可能性あり。
+  * オリジナルデータ閲覧：地理院地図
+  * ライセンス：国土地理院コンテンツ利用規約に従い、出典明示により、転載も含め使用可
+* 斜面崩壊・堆積分布データ（2024年1月6日更新分）
+  * 出典：https://www.gsi.go.jp/BOUSAI/20240101_noto_earthquake.html#2
+  * 概要：国土地理院が1月2日及び1月5日に撮影した空中写真（珠洲地区、輪島東地区、輪島中地区、穴水地区）から、令和6年能登半島地震によって生じたと考えられる斜面崩壊箇所及び土砂堆積箇所の範囲について判読したものであり、道路や河川上の土砂は、一部撤去されている可能性あり。
+  * オリジナルデータ閲覧：地理院地図
+  * ライセンス：国土地理院コンテンツ利用規約に従い、出典明示により、転載も含め使用可
+* 被災地域空中写真（正射画像）：珠洲地区、輪島東地区、輪島中地区、20240102撮影
+  * 出典：https://www.gsi.go.jp/BOUSAI/20240101_noto_earthquake.html#4
+  * オリジナルデータ閲覧：地理院地図
+  * ライセンス：国土地理院コンテンツ利用規約
+* 被災地域空中写真（正射画像）：珠洲地区、輪島中地区、穴水地区、七尾地区、20240105撮影
+  * 出典：https://www.gsi.go.jp/BOUSAI/20240101_noto_earthquake.html#4
+  * オリジナルデータ閲覧：地理院地図
+  * ライセンス：国土地理院コンテンツ利用規約
+* 地理院タイル
+  * 出典：https://maps.gsi.go.jp/development/ichiran.html
+  * 概要：背景画像として空中写真と標準地図を使用
+### 国立研究開発法人 森林研究・整備機構 森林総合研究所
+* 森林土壌デジタルマップ・CS立体図（能登半島）
+  * 出典：https://www2.ffpri.go.jp/soilmap/index1.html?page=3
+  * 概要：デジタル標高データから計算される曲率（Curvature）、傾斜（Slope）の情報を色調を変えて重ね合わせることにより、視覚的・直感的に地形判読を可能としたCS立体図を閲覧できる。作成に利用した標高データは災害前(2020-2023)に取得されたものである。
+  * オリジナルデータ閲覧：CS立体図（ズームレベル1～17）
+  * ライセンス：森林土壌デジタルマップ・利用規約参照。

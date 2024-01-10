@@ -1,7 +1,9 @@
 # 202401 能登半島地震関連地理情報データ (202401 Noto Penninsula Eathquake Geospatial Data)
 
   * [PSS Terria Map 日本語版を開く](https://pss-terria.com/#clean&map=3d&https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/catalog/noto_earthquake_20240109.json) (日本語のカタログ名です)
+    * ３D表示するには、「日本全国地形データ」は必ず読み込んでください。その上で他のデータを読み込んで下さい。
   * [PSS Terria Map English version](https://pss-terria.com/#clean&map=3d&https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/catalog/noto_earthquake_en_20240109.json) (I translated layer names in English, so it may be easier for no Japanese reading audience)
+    * You need to load the "Japanese Terrain data" along with other layers to see 3D topography!
 
 ## Geospatail PDF
 地図は現在準備中 (2024/1/9)

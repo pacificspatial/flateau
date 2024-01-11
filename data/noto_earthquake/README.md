@@ -24,28 +24,26 @@ Avenza Mapsの使い方は、武揚堂様が作成した[このビデオをご�
 ![TerriaMap](https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/images/2024-01-09_12-19-11.png)
 
 
-## Plateu建物フットプリント関連データ
-被災地周辺のデータは有りませんが、石川県内のデータをリストしました。
-### GeoParquet
-* [17201_kanazawa-shi_2020_building_centroid_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_centroid_lod0.parquet) 41.25MB
-* [17201_kanazawa-shi_2020_building_data_quality.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_data_quality.parquet) 14.86MB
-* [17201_kanazawa-shi_2020_building_detail.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_detail.parquet) 15.19MB
-* [17201_kanazawa-shi_2020_building_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_lod0.parquet) 68.07MB
-* [17201_kanazawa-shi_2020_building_risk_flooding.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_risk_flooding.parquet) 13.09MB
-* [17201_kanazawa-shi_2020_building_risk_land_slide.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_risk_land_slide.parquet) 0.66MB
-* [17201_kanazawa-shi_2020_building_risk_tsunami.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_risk_tsunami.parquet) 0.06MB
-* [17206_kaga-shi_2022_building_centroid_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_centroid_lod0.parquet) 10.44MB
-* [17206_kaga-shi_2022_building_data_quality.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_data_quality.parquet) 3.72MB
-* [17206_kaga-shi_2022_building_detail.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_detail.parquet) 3.87MB
-* [17206_kaga-shi_2022_building_extended_attributes.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_extended_attributes.parquet) 0.79MB
-* [17206_kaga-shi_2022_building_generic_attributes.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_generic_attributes.parquet) 0.78MB
-* [17206_kaga-shi_2022_building_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_lod0.parquet) 17.9MB
-* [17206_kaga-shi_2022_building_risk_flooding.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_risk_flooding.parquet) 1.24MB
-* [17206_kaga-shi_2022_building_risk_land_slide.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_risk_land_slide.parquet) 0.33MB
-* [17206_kaga-shi_2022_building_risk_tsunami.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_risk_tsunami.parquet) 0.01MB
+## PLATEAU建物フットプリント関連データ
+被災地周辺のデータはありませんが、石川県内のデータをリストしました。GISソフトウェアで読み込める形式にしてあります。どちらのGeoParquetとGeoPackage形式で用意しましたが、どちらが良いかわからない方は、GeoPackage形式をご利用下さい。[テーブルの説明、出典については、こちらをご覧下さい](https://github.com/pacificspatial/flateau/tree/main/data/plateau)。
+### GeoParquet形式（最新のQGISで読み込めます）
+#### 金沢市のPLATEAU 2D建物フットプリント及び関連データ
+* [建物ポリゴン](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_lod0.parquet) 68.07MB
+* [建物ポリゴンのセントロイド](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_centroid_lod0.parquet) 41.25MB
+* [洪水浸水想定区域](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_risk_flooding.parquet) 13.09MB
+* [土砂災害警戒区域](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_risk_land_slide.parquet) 0.66MB
+* [津波浸水想定](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17201_kanazawa-shi_2020_building_risk_tsunami.parquet) 0.06MB
+#### 加賀市のPLATEAU 2D建物フットプリント及び関連データ
+* [建物ポリゴン](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_lod0.parquet) 17.9MB
+* [建物ポリゴンのセントロイド](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_centroid_lod0.parquet) 10.44MB
+* [洪水浸水想定区域](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_risk_flooding.parquet) 1.24MB
+* [土砂災害警戒区域](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_risk_land_slide.parquet) 0.33MB
+* [津波浸水想定](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/17206_kaga-shi_2022_building_risk_tsunami.parquet) 0.01MB
 
-### GeoPackage
+### GeoPackage形式（ほとんどのGISソフトウェアで読み込めます）
+#### 金沢市のPLATEAU 2D建物フットプリント及び関連データ
 * [17201_kanazawa-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/17201_kanazawa-shi_2020.gpkg) 350.36MB
+#### 加賀市のPLATEAU 2D建物フットプリント及び関連データ
 * [17206_kaga-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/17206_kaga-shi_2022.gpkg) 93.34MB
 
 ## データの出典

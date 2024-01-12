@@ -5,7 +5,7 @@
   * [PSS Terria Map English version](https://pss-terria.com/#clean&map=3d&https://flateau.s3.ap-northeast-1.amazonaws.com/data/noto_earthquake/catalog/noto_earthquake_en_20240109.json) (I translated layer names in English, so it may be easier for no Japanese reading audience)
     * You need to load the "Japanese Terrain data" along with other layers to see 3D topography!
 
-## Geospatail PDF
+## Geospatail PDF + Avenza Maps（インターネットが使えない場所でも、GPSと連動して自分の場所を地図上で確認し、調査・データ収集が可能な地図アプリ）
 地図は現在準備中 (2024/1/9)
 
 Geospataial PDFは、普通のPDFファイルですが、[Avenza Maps](https://avenzamaps.jp/)で読み込むと、GPSと連動した地図として使えます。インターネットが使えない場所でも自分の位置を地図上で確認しながら移動、調査、データ収集ができます。写真を撮影しておけば、場所と写真を紐づけしながらデータを収集できます。もちろん、PDFなので、紙に印刷したり、パソコンで普通に見ることもできます。

@@ -16,8 +16,8 @@ root/
 |─ gpkg/
 |  |─ geopackage files for each city
 |─ merged/
-|  |─ merged_building_lod0.parquet
 |  |─ merged_building_centroid_lod0.parquet
+|  |─ merged_building_lod0.parquet
 |─ parquet/
 |  |─ parquet files for each city
 |─ README.md

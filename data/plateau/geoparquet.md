@@ -1,4 +1,5 @@
 # Available data
+## These are old data. For the latest one, please visit [here](https://beta.source.coop/repositories/pacificspatial/flateau/description/)
 * [01100_sapporo-shi_2020_building_centroid_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/01100_sapporo-shi_2020_building_centroid_lod0.parquet) 110.29MB
 * [01100_sapporo-shi_2020_building_generic_attributes.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/01100_sapporo-shi_2020_building_generic_attributes.parquet) 82.19MB
 * [01100_sapporo-shi_2020_building_lod0.parquet](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpqt/01100_sapporo-shi_2020_building_lod0.parquet) 174.68MB

@@ -1,4 +1,5 @@
-# Available data (GeoPackage)
+# Available data 
+## These are old data. For the latest one, please visit [here](https://beta.source.coop/repositories/pacificspatial/flateau/description/)
 * [01100_sapporo-shi_2020.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/01100_sapporo-shi_2020.gpkg) 879.91MB
 * [01205_muroran-shi_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/01205_muroran-shi_2022.gpkg) 81.72MB
 * [01639_sarabetsu-mura_2022.gpkg](https://flateau.s3.ap-northeast-1.amazonaws.com/data/plateau/2022/buildings202312/gpkg/01639_sarabetsu-mura_2022.gpkg) 8.25MB

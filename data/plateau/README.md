@@ -13,14 +13,14 @@ Polygon and Centroid data have gml_id columns which you can use to join attribut
 Directories are organized by data types.
 ```
 root/
-|─ README.md
-|─ parquet/
-|  |─ parquet files for each city
 |─ gpkg/
 |  |─ geopackage files for each city
 |─ merged/
 |  |─ merged_building_lod0.parquet
 |  |─ merged_building_centroid_lod0.parquet
+|─ parquet/
+|  |─ parquet files for each city
+|─ README.md
 ```
 
 データは自由にお使いいただけますが、[CC BY 4.0ライセンス]（https://creativecommons.org/licenses/by/4.0/legalcode.ja） に従います。

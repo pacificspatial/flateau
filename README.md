@@ -1,4 +1,9 @@
 # Flateau
+
+## Jump to ...
+- [Building Footprint data page](https://github.com/pacificspatial/flateau/tree/main/data/plateau)
+- [Noto Earthquake spacial page](https://github.com/pacificspatial/flateau/tree/main/data/noto_earthquake)
+
 ## Data for the people
 
 So this is our internal project to make Japanese open geospatial data available for online visualization and analysis. We are going to start with Project Plateau data and expand our efforts gradually to other data sources. What we want to do is convert geospatial data to cloud-native data formats such as GeoParquet, COG, and COPC, as well as open standard formats such as GeoPackage and GeoJSON. We have been creating FME pipelines to convert geospatial data to cloud-native formats.

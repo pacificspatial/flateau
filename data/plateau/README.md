@@ -35,7 +35,7 @@ root/
 ### Prepared data (整備したデータ)
 We prepared data for each city where Plateau data are available on 2024/05. Plateau project keeps adding more cities every year. So, hopefully we can keep adding more cities in the future.
 
-2022年度のPlateauの建物データの変換を行いました。毎年整備対象都市が増えているのでできれば毎年追加していきたいと考えています。
+2023年度のPlateauの建物データの変換を行いました。毎年整備対象都市が増えているのでできれば毎年追加していきたいと考えています。
 
 ### Prepaed data fromat（整備したデータのフォーマット）
 We prepared our data in two data formats and host at [Source Cooperative](https://beta.source.coop/). If you click the following download page links, you will open the data download pages.
